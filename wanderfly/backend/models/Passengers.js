@@ -22,13 +22,13 @@ let PassengerSchema = new Schema({
         type: String,
     },
     bookingDate: {
-        type: Date,
+        type: String,
     },
     checkinDate: {
-        type: Date,
+        type: String,
     },
     checkoutDate: {
-        type: Date,
+        type: String,
     },
 }, {
     collection: 'Passengers',
